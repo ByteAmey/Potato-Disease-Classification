@@ -1,0 +1,78 @@
+/* Page: black background with a soft green glow at the top */
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  background-image: radial-gradient(circle at top, #0f2d16, #0a0a0a 60%);
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #39ff6a;              /* bright green title */
+}
+
+p {
+  color: #9aa59d;              /* soft grey text */
+}
+
+/* The dark card in the middle */
+.box {
+  background: #141414;
+  max-width: 420px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 25px;
+  border: 2px solid #39ff6a;
+  box-shadow: 0 0 25px rgba(57, 255, 106, 0.3);   /* green glow */
+}
+
+/* The leaf picture (hidden until a photo is chosen) */
+img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+/* The file chooser */
+input[type="file"] {
+  color: #9aa59d;
+}
+
+/* The green button */
+button {
+  background: #39ff6a;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #22c24c;
+}
+
+/* The result text */
+#result {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Green when the leaf is healthy */
+.good {
+  color: #39ff6a;
+}
+
+/* Red when the leaf has blight */
+.bad {
+  color: #ff4d4d;
+}

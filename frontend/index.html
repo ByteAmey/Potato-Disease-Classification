@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Potato Disease Classifier 🥔</title>
+
+  <!-- Connect the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🥔 Potato Doctor</h1>
+  <p>Upload a potato leaf and find out if it is sick!</p>
+
+  <div class="box">
+    <img id="preview">
+    <input type="file" id="fileInput" accept="image/*">
+    <br>
+    <button onclick="checkLeaf()">🔍 Check leaf</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Connect the JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
