@@ -1,4 +1,3 @@
-/* Page: black background with a soft green glow at the top */
 body {
   font-family: Arial, sans-serif;
   background: #0a0a0a;
@@ -12,14 +11,13 @@ body {
 h1 {
   font-size: 40px;
   margin-bottom: 5px;
-  color: #39ff6a;              /* bright green title */
+  color: #39ff6a;
 }
 
 p {
-  color: #9aa59d;              /* soft grey text */
+  color: #9aa59d;
 }
 
-/* The dark card in the middle */
 .box {
   background: #141414;
   max-width: 420px;
@@ -27,10 +25,9 @@ p {
   padding: 25px;
   border-radius: 25px;
   border: 2px solid #39ff6a;
-  box-shadow: 0 0 25px rgba(57, 255, 106, 0.3);   /* green glow */
+  box-shadow: 0 0 25px rgba(57, 255, 106, 0.3);
 }
 
-/* The leaf picture (hidden until a photo is chosen) */
 img {
   width: 100%;
   border-radius: 15px;
@@ -38,12 +35,10 @@ img {
   display: none;
 }
 
-/* The file chooser */
 input[type="file"] {
   color: #9aa59d;
 }
 
-/* The green button */
 button {
   background: #39ff6a;
   color: black;
@@ -60,19 +55,16 @@ button:hover {
   background: #22c24c;
 }
 
-/* The result text */
 #result {
   font-size: 26px;
   font-weight: bold;
   margin-top: 20px;
 }
 
-/* Green when the leaf is healthy */
 .good {
   color: #39ff6a;
 }
 
-/* Red when the leaf has blight */
 .bad {
   color: #ff4d4d;
 }
